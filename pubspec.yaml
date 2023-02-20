@@ -25,6 +25,12 @@ dependencies:
   stringer:
     git:
       url: https://github.com/RagehAz/stringer.git
+  fire:
+    git:
+      url: https://github.com/RagehAz/fire.git
+  animators:
+    git:
+      url: https://github.com/RagehAz/animators.git
   # ------------------------------------
 dev_dependencies:
   flutter_test:
