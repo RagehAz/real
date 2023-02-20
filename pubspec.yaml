@@ -1,0 +1,35 @@
+name: real
+description: Firebase Realtime Database API methods
+version: 0.0.1
+publish_to: none
+homepage: https://github.com/RagehAz/real.git
+  # ------------------------------------
+environment:
+  sdk: ">=2.10.5 <3.0.0"
+  flutter: ">=1.17.0"
+  # ------------------------------------
+dependencies:
+  flutter:
+    sdk: flutter
+  # ------------------------------------
+  firebase_database: ^10.0.3
+  http: ^0.13.4
+  # ------------------------------------
+  # MY HELPERS
+  mapper:
+    git:
+      url: https://github.com/RagehAz/mapper.git
+  filers:
+    git:
+      url: https://github.com/RagehAz/filers.git
+  stringer:
+    git:
+      url: https://github.com/RagehAz/stringer.git
+  # ------------------------------------
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  # ------------------------------------
+flutter:
+  # ------------------------------------
